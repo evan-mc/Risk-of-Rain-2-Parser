@@ -16,7 +16,7 @@ public class Application
 
             NodeList nodes = doc.getElementsByTagName("stat");
 
-            for(int i = 0, sz = nodes.getLength(); i < 18; ++i)
+            for(int i = 0; i < 18; ++i)
             {
                 Node curr = nodes.item(i);
                 Node child = curr.getFirstChild();
